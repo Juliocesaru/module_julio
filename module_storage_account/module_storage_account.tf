@@ -1,18 +1,18 @@
 variable "storage_account_name" {
-  description = "The name of the storage account"
+  description = "juliostorage"
 }
 
 variable "resource_group_name" {
-  description = "The name of the storage account resource group"
+  description = "MCIT_lab_session"
 }
 
 variable "location" {
-  description = "The Azure region where the storage account will be created"
+  description = "canadacentral"
   default     = "eastus"
 }
 
 variable "account_tier" {
-  description = "The storage account tier (Standard or Premium)"
+  description = "Standard"
   default     = "Standard"
 }
 
