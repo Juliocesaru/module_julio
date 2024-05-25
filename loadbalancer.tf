@@ -1,5 +1,5 @@
 # Azure load balancer module
-variable "resource_group_name" {
+variable "resource_group_name" "azlb" {
   description = "Name of the resource group"
   type        = string
 }
