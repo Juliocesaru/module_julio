@@ -1,6 +1,7 @@
 # Azure load balancer module
-data "azurerm_resource_group" "azlb" {
-  name = var.resource_group_name
+variable "resource_group_name" {
+  description = "azlb"
+  type        = string
 }
 
 data "azurerm_subnet" "snet" {
