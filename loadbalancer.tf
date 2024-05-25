@@ -2,7 +2,9 @@
 data "azurerm_resource_group" "azlb" {
   name = var.resource_group_name
 }
-
+data "azurerm_resource_group" "azlb" {
+  name = var.resource_group_name
+}
 data "azurerm_subnet" "snet" {
   count = (var.frontend_subnet_name != null && var.frontend_subnet_name != "") ? 1 : 0
 
