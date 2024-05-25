@@ -1,9 +1,4 @@
 # Azure load balancer module
-variable "resource_group_name" "azlb" {
-  description = "Name of the resource group"
-  type        = string
-}
-
 data "azurerm_resource_group" "azlb" {
   name = var.resource_group_name
 }
