@@ -11,7 +11,3 @@ variable "client_secret"{
 variable "tenant_id"{
   type=string
 }
-variable "resource_group_name" {
-  description = "azlb"
-  type        = string
-}
