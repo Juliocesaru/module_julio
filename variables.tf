@@ -15,3 +15,7 @@ variable "resource_group_name" {
   description = "azlb"
   type        = string
 }
+
+data "azurerm_resource_group" "azlb" {
+  name = var.resource_group_name
+}
